@@ -33,6 +33,8 @@ else
     echo -e "$echo_info found exist file, ignore init"
 fi
 cd $cdir
+echo -e "$echo_info pwd..."
+pwd
 echo -e "$echo_info starting server..."
 ./start.sh
 echo -e "$echo_info exit"
